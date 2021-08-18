@@ -22,17 +22,49 @@
     justify-content: center;
 }
 
-.header__center>p{
-    margin: 10px;
+.header__center>a{
+    /* margin: 10px; */
     text-transform: uppercase;
+    text-decoration: none;
+    color: #181b21;
 }
 
 .header__right{
     display: flex;
     justify-content: flex-end;
     text-transform: uppercase;
+    padding-right: 25px;
+}
+
+.header__right>a{
+    text-decoration: none;
+    color: #181b21;
 }
 
 .header__right>p{
     margin: 10px;
 }
+
+.button1{
+    border: none;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition-duration: 0.4s;
+    text-transform: uppercase;
+    border:10px;
+    padding: 3px 24px;
+}
+
+.button1:hover{
+    background-color: rgb(68, 67, 67, 0.25);
+    color: white;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    
+}
+
+

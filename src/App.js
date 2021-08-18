@@ -15,12 +15,14 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div class="app_itemsContainer">
+      <div className="app_itemsContainer">
         <Item
-          title="Lowest Cost Solar Panels in America"
-          desc="Money-back guarantee"
+          title="Model S"
+          clsname="ModelS"
+          desc="Order Online for "
+          desc2="Touchless Delivery"
           descLink=""
-          backgroundImg={Solarpanels}
+          backgroundImg={ModelS}
           leftBtnTxt="ORDER NOW"
           leftBtnLink=""
           rightBtnTxt="LEARN MORE"
@@ -29,34 +31,13 @@ function App() {
           first
         />
         <Item
-          title="Model S"
-          desc="Order Online for Touchless Delivery"
-          descLink=""
-          backgroundImg={ModelS}
-          leftBtnTxt="CUSTOME ORDER"
-          leftBtnLink=""
-          rightBtnTxt="LEARN MORE"
-          rightBtnLink=""
-          twoButtons="true"
-          first
-        />
-        <Item
-          title="Model S"
-          desc="Order Online for Touchless Delivery"
-          descLink=""
-          backgroundImg={ModelS}
-          leftBtnTxt="CUSTOME ORDER"
-          leftBtnLink=""
-          rightBtnTxt="LEARN MORE"
-          rightBtnLink=""
-          twoButtons="true"
-        />
-        <Item
           title="Model 3"
-          desc="Order Online for Touchless Delivery"
+          clsname="Model3"
+          desc="Order Online for"
+          desc2="Touchless Delivery"
           descLink=""
           backgroundImg={Model3}
-          leftBtnTxt="CUSTOME ORDER"
+          leftBtnTxt="ORDER NOW"
           leftBtnLink=""
           rightBtnTxt="LEARN MORE"
           rightBtnLink=""
@@ -64,10 +45,12 @@ function App() {
         />
         <Item
           title="Model X"
-          desc="Order Online for Touchless Delivery"
+          clsname="ModelX"
+          desc="Order Online for "
+          desc2="Touchless Delivery"
           descLink=""
           backgroundImg={ModelX}
-          leftBtnTxt="CUSTOME ORDER"
+          leftBtnTxt="ORDER NOW"
           leftBtnLink=""
           rightBtnTxt="LEARN MORE"
           rightBtnLink=""
@@ -75,10 +58,12 @@ function App() {
         />
         <Item
           title="Model Y"
-          desc="Order Online for Touchless Delivery"
+          clsname="ModelY"
+          desc="Order Online for "
+          desc2="Touchless Delivery"
           descLink=""
           backgroundImg={ModelY}
-          leftBtnTxt="CUSTOME ORDER"
+          leftBtnTxt="ORDER NOW"
           leftBtnLink=""
           rightBtnTxt="LEARN MORE"
           rightBtnLink=""
@@ -86,10 +71,24 @@ function App() {
         />
         <Item
           title="Solar for New Roofs"
-          desc="Order Online for Touchless Delivery"
+          clsname="SolarRoof"
+          desc="Order Online for "
+          desc2="Touchless Delivery"
           descLink=""
           backgroundImg={SolarRoof}
-          leftBtnTxt="CUSTOME ORDER"
+          leftBtnTxt="ORDER NOW"
+          leftBtnLink=""
+          rightBtnTxt="LEARN MORE"
+          rightBtnLink=""
+          twoButtons="true"
+        />
+        <Item
+          title="Lowest Cost Solar Panels in America"
+          clsname="Solarpanels"
+          desc="Money-back guarantee"
+          descLink=""
+          backgroundImg={Solarpanels}
+          leftBtnTxt="ORDER NOW"
           leftBtnLink=""
           rightBtnTxt="LEARN MORE"
           rightBtnLink=""
@@ -97,14 +96,15 @@ function App() {
         />
         <Item
           title="Accessories"
+          clsname="Accessories"
           desc=""
           descLink=""
           backgroundImg={Accessories}
           leftBtnTxt="SHOP NOW"
           leftBtnLink=""
-          rightBtnTxt="LEARN MORE"
-          rightBtnLink=""
-          twoButtons="true"
+          // rightBtnTxt="LEARN MORE"
+          // rightBtnLink=""
+          // twoButtons="false"
         />
       </div>
     </div>
